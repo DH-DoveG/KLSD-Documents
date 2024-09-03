@@ -4,6 +4,9 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 
+import CardNumber from '../../src/commponents/CardNumber.vue'
+
+
 export default {
   extends: DefaultTheme,
   Layout: () => {
@@ -15,5 +18,6 @@ export default {
     // ...
     // 注册自定义全局组件
     //  app.component('Card', Card)
+    // app.component
   }
 } satisfies Theme
