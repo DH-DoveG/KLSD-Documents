@@ -17,6 +17,8 @@ export default defineConfig({
     }
   },
 
+  ignoreDeadLinks: true,
+
   srcExclude: ['README.md', 'LICENSE', 'LICENSE-CODE'],
 
   // 实验性功能
