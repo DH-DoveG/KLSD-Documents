@@ -6,6 +6,9 @@ hero:
   name: "KLSD Documents"
   text: "卡灵时代资料站"
   tagline: My great project tagline
+  image:
+    src: /public/logo/KLSD.png
+    alt: KLSD Logo
   actions:
     - theme: brand
       text: Markdown Examples
@@ -15,11 +18,8 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
+  - title: 卡包
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: 细则（进行中）
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
