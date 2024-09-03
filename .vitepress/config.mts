@@ -44,7 +44,27 @@ export default defineConfig({
         text: "卡片",
         collapsed: true,
         items: [
-          {text: "手雷蟑螂", link: '/cards/手雷蟑螂'}
+          {text: "辉翼极光龙", link: '/cards/辉翼极光龙'},
+          {text: "电光断碎者", link: '/cards/电光断碎者'},
+          {text: "光法师 青辉", link: '/cards/光法师 青辉'},
+          {text: "电光魔法师", link: '/cards/电光魔法师'},
+          {text: "圣赫利尔", link: '/cards/圣赫利尔'},
+          {text: "小丑星法师", link: '/cards/小丑星法师'},
+          {text: "Dream Maker", link: '/cards/Dream Maker'},
+          {text: "心天使", link: '/cards/心天使'},
+          {text: "流电刀士", link: '/cards/流电刀士'},
+          {text: "云电仔", link: '/cards/云电仔'},
+          {text: "迅雷翼守宫", link: '/cards/迅雷翼守宫'},
+          {text: "希望灵光", link: '/cards/希望灵光'},
+          {text: "星光盾", link: '/cards/星光盾'},
+          {text: "星之愿", link: '/cards/星之愿'},
+          {text: "深渊之光", link: '/cards/深渊之光'},
+          {text: "电闪抽牌", link: '/cards/电闪抽牌'},
+          {text: "电光石火", link: '/cards/电光石火'},
+          {text: "心灵之眼", link: '/cards/心灵之眼'},
+          {text: "充能MAX", link: '/cards/充能MAX'},
+          {text: "光能量", link: '/cards/光能量'},
+          {text: "电能量", link: '/cards/电能量'},
         ]
       },
       {
@@ -70,7 +90,7 @@ export default defineConfig({
     },
 
     lastUpdated: {
-      text: "更新于："
+      text: "更新于"
     }
   }
 })

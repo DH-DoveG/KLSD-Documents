@@ -4,18 +4,19 @@
 
 <script setup lang="ts">
 
+import { getCardImage } from "../utils/tools";
+
 defineProps<{
-    src: string,
-    title: string,
-    url: string
+    url: string,
+    number: string
 }>();
 
 </script>
 
 <template>
     <div class="card-number">
-        <img :src="src" />
-        <a :href="url">{{ title }}</a>
+        <img :src="getCardImage(number)" />
+        <a :href="url">{{ number }}</a>
     </div>
 </template>
 

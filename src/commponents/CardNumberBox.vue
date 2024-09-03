@@ -2,7 +2,7 @@
 import CardNumber from './CardNumber.vue';
 
 defineProps<{
-    list: { title: string, url: string, src: string }[]
+    list: { number: string, url: string }[]
 }>();
 
 </script>
@@ -10,9 +10,8 @@ defineProps<{
 <template>
     <div class="card-number-box">
         <CardNumber v-for="item, index of list" :key="index" 
-            :title="item.title" 
+            :number="item.number" 
             :url="item.url" 
-            :src="item.src" 
         />
     </div>
 </template>

@@ -4,7 +4,7 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 
-import CardNumber from '../../src/commponents/CardNumber.vue'
+import CardNumberBox from "../../src/commponents/CardNumberBox.vue"
 
 
 export default {
@@ -17,7 +17,6 @@ export default {
   enhanceApp({ app, router, siteData }) {
     // ...
     // 注册自定义全局组件
-    //  app.component('Card', Card)
-    // app.component
+    app.component("CardNumberBox", CardNumberBox)
   }
 } satisfies Theme
