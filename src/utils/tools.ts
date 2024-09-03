@@ -16,5 +16,5 @@ export function getCardImage(number: string): string {
         url: ""
     })
     */
-    return "/public/images/cards/" + number + ".jpg";
+    return "/images/cards/" + number + ".jpg";
 }

@@ -7,7 +7,7 @@ hero:
   text: "卡灵时代资料站"
   tagline: My great project tagline
   image:
-    src: /public/logo/KLSD.png
+    src: /logo/KLSD.png
     alt: KLSD Logo
   actions:
     - theme: brand

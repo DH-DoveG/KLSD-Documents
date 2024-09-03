@@ -7,7 +7,7 @@ export default defineConfig({
   lang: 'zh-CN',
 
   head: [
-    ["link", {rel: "icon", href: "public/logo/KLSD.png"}]
+    ["link", {rel: "icon", href: "/logo/KLSD.png"}]
   ],
 
   markdown: {
@@ -27,8 +27,8 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: {
-      light: "/public/logo/KLSD.png",
-      dark: "/public/logo/KLSD.png"
+      light: "/logo/KLSD.png",
+      dark: "/logo/KLSD.png"
     },
     
     nav: [
