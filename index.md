@@ -11,11 +11,11 @@ hero:
     alt: KLSD Logo
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 卡片
+      link: /cards/光法师 青辉
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 卡包
+      link: /packs/index
 
 features:
   - title: 卡包
