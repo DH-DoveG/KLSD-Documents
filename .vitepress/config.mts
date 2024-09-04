@@ -10,7 +10,7 @@ export default defineConfig({
     ["link", {rel: "icon", href: "/logo/KLSD.png"}]
   ],
 
-  base: "/repo/", // GitHub
+  base: "/KLSD-Documents/", // GitHub
 
   markdown: {
     image: {
