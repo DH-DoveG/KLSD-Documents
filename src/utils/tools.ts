@@ -1,5 +1,3 @@
-import axios from "axios";
-
 export function beautifyArray(arr: []): string {
     return arr.map(item => {
         if (typeof item === 'string') {
@@ -11,10 +9,6 @@ export function beautifyArray(arr: []): string {
 }
 
 export function getCardImage(number: string): string {
-    /*axios({
-        method: "GET",
-        url: ""
-    })
-    */
+    console.log("/KLSD-Documents" + "/images/cards/" + number + ".jpg");
     return "/KLSD-Documents" + "/images/cards/" + number + ".jpg";
 }
