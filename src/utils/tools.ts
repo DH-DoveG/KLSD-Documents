@@ -16,5 +16,5 @@ export function getCardImage(number: string): string {
         url: ""
     })
     */
-    return "/images/cards/" + number + ".jpg";
+    return "/KLSD-Documents" + "/images/cards/" + number + ".jpg";
 }
