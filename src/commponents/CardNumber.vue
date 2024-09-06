@@ -23,13 +23,16 @@ defineProps<{
 <style lang="scss">
 .card-number {
     position: relative;
-    border: 2px saddlebrown solid;
     text-align: center;
     padding: 2.5%;
+    border-radius: 3px;
+
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 .card-number img {
     width: 100%;
     object-fit: cover;
+    border-radius: 3px;
 }
 </style>

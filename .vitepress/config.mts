@@ -58,6 +58,7 @@ export default defineConfig({
           {text: "心天使", link: '/cards/心天使'},
           {text: "流电刀士", link: '/cards/流电刀士'},
           {text: "云电仔", link: '/cards/云电仔'},
+          {text: "电子宝宝", link: '/cards/电子宝宝'},
           {text: "迅雷翼守宫", link: '/cards/迅雷翼守宫'},
           {text: "希望灵光", link: '/cards/希望灵光'},
           {text: "星光盾", link: '/cards/星光盾'},

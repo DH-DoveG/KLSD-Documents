@@ -6,7 +6,7 @@ let list = [
 
 # Dream Maker
 
-**属性**：光<br>
+**属性**：<CardAttribute text="光"/><br>
 **等级**：2<br>
 **系类**：法灵
 
