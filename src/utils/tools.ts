@@ -9,6 +9,6 @@ export function beautifyArray(arr: []): string {
 }
 
 export function getCardImage(number: string): string {
-    console.log("/KLSD-Documents" + "/images/cards/" + number + ".jpg");
-    return "/KLSD-Documents" + "/images/cards/" + number + ".jpg";
+    console.log("---https://gitee.com/DH-DoveG/KLSD-DB/raw/master/image/" + number + ".jpg");
+    return "https://gitee.com/DH-DoveG/KLSD-DB/raw/master/image/" + number + ".jpg";
 }

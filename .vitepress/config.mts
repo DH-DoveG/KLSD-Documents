@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "KLSD Documents",
+  title: "卡灵时代资料站",
   description: "卡灵时代资料站",
   lang: "zh-CN",
 

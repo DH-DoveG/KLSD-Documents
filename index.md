@@ -23,3 +23,11 @@ features:
   - title: 细则（进行中）
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
+
+<script>
+  // 需要使用外部图片链接
+  let meta = document.createElement("meta");
+  meta.setAttribute("name", "referrer");
+  meta.setAttribute("content", "no-referrer");
+  document.head.appendChild(meta);
+</script>
