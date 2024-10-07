@@ -53,7 +53,7 @@ style.value += ";";
     </ClientOnly>
 </template>
 
-<style lang="scss" scoped>
+<style lang="css" scoped>
 span {
     border-radius: 1em;
     text-align: center;

@@ -9,9 +9,7 @@ defineProps<{
 
 <template>
     <div class="card-number-box">
-        <ClientOnly>
-            <CardNumber v-for="item, index of list" :key="index" :number="item.number" :url="item.url" />
-        </ClientOnly>
+        <CardNumber v-for="item, index of list" :key="index" :number="item.number" :url="item.url" />
     </div>
 </template>
 

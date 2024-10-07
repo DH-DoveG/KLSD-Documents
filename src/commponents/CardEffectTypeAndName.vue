@@ -14,13 +14,11 @@ console.log(type_img);
 </script>
 
 <template>
-    <ClientOnly>
         <img :src="type_img" />
         &nbsp;
         <span>
             {{ props.name }}
         </span>
-    </ClientOnly>
 </template>
 
 <style lang="css" scoped>

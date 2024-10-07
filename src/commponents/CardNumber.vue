@@ -20,7 +20,7 @@ defineProps<{
     </div>
 </template>
 
-<style lang="scss">
+<style lang="css">
 .card-number {
     position: relative;
     text-align: center;

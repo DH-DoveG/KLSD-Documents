@@ -14,15 +14,10 @@ export default {
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
     })
   },
-  enhanceApp({ app, router, siteData }) {
+  async enhanceApp({ app, router, siteData }) {
     // ...
     // 注册自定义全局组件
     app.component("CardNumberBox", CardNumberBox)
     app.component("CardAttribute", CardAttribute)
-
-    if (!import.meta.resolve) {
-
-    }
-
   }
 } satisfies Theme
