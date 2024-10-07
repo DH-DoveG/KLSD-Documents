@@ -7,9 +7,7 @@ const props = defineProps<{
     name: string
 }>();
 
-let type_img = ref("/KLSD-Documents/" + props.type + ".svg");
-
-console.log(type_img);
+let type_img = ref("/KLSD-Documents/effects/" + props.type + ".svg");
 
 </script>
 

@@ -8,7 +8,7 @@ let list = [
 
 # 充能MAX
 
-**属性**：<CardAttribute text="电"/><br>
+**属性**：<CardAttribute text="电"/><br/>
 **等级**：2
 
 ## 效果

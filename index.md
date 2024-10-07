@@ -28,10 +28,14 @@ features:
     details: 卡片详细资料下方有相关处理细则。
 ---
 
-<script>
+<script setup>
+import { onMounted } from 'vue'
+
+onMounted(() => {
   // 需要使用外部图片链接
   let meta = document.createElement("meta");
   meta.setAttribute("name", "referrer");
   meta.setAttribute("content", "no-referrer");
   document.head.appendChild(meta);
+})
 </script>

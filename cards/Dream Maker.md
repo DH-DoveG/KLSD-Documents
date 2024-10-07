@@ -6,14 +6,14 @@ let list = [
 
 # Dream Maker
 
-**属性**：<CardAttribute text="光"/><br>
-**等级**：2<br>
+**属性**：<CardAttribute text="光"/><br/>
+**等级**：2<br/>
 **系类**：法灵
 
 ## 数值
 
-**AP**:0<br>
-**DP**:2<br>
+**AP**:0<br/>
+**DP**:2<br/>
 **SP**:1
 
 ## 效果
