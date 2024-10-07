@@ -2,10 +2,10 @@
 
 import { ref } from "vue";
 
-const props = defineProps < {
+const props = defineProps<{
     type: string,
     name: string
-} > ();
+}>();
 
 let type_img = ref("/KLSD-Documents/" + props.type + ".svg");
 
@@ -14,11 +14,13 @@ console.log(type_img);
 </script>
 
 <template>
-    <img :src="type_img" />
-    &nbsp;
-    <span>
-        {{ props.name }}
-    </span>
+    <ClientOnly>
+        <img :src="type_img" />
+        &nbsp;
+        <span>
+            {{ props.name }}
+        </span>
+    </ClientOnly>
 </template>
 
 <style lang="css" scoped>

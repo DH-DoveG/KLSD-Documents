@@ -19,5 +19,10 @@ export default {
     // 注册自定义全局组件
     app.component("CardNumberBox", CardNumberBox)
     app.component("CardAttribute", CardAttribute)
+
+    if (!import.meta.resolve) {
+
+    }
+
   }
 } satisfies Theme

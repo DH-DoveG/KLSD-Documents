@@ -48,7 +48,9 @@ style.value += ";";
 </script>
 
 <template>
-    <span :style="style">{{ text }}</span>
+    <ClientOnly>
+        <span :style="style">{{ text }}</span>
+    </ClientOnly>
 </template>
 
 <style lang="scss" scoped>
